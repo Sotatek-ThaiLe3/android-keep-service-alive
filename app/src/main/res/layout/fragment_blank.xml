@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".BlankFragment">
 
+    <Button
+        android:id="@+id/buttonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:text="Action" />
+
     <TextView
         android:id="@+id/textViewData"
         android:layout_width="wrap_content"
